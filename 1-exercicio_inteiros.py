@@ -29,3 +29,7 @@
 # print(f"O resultado é: {quociente}")
 
 # 5. Escreva um programa que calcule o quadrado de um número fornecido pelo usuário.
+print("Quadrado do número fornecido!")
+num1 = int(input("Número do usuário: "))
+Resultado = num1 ** 2
+print(f"O resultado é: {Resultado}")
