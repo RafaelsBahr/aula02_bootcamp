@@ -8,15 +8,19 @@
 # print(f"O resultado é: {soma}")
 
 # 2. Crie um programa que receba um número do usuário e calcule o resto da divisão desse número por 5.
-print("Divisão por 5!")
-num = int(input("Número para dividir: "))
-divisor = 5
-resto = num % divisor
-print(f"O resto é: {resto}")
-
-
-
+# print("Divisão por 5!")
+# num = int(input("Número para dividir: "))
+# divisor = 5
+# resto = num % divisor
+# print(f"O resto é: {resto}")
 
 # 3. Desenvolva um programa que multiplique dois números fornecidos pelo usuário e mostre o resultado.
+print("Multiplicação!")
+num1 = float(input("Primeiro número: "))
+num2 = float(input("Segundo número: "))
+Produto = num1 * num2
+print(f"O produto é: {Produto}")
+
+
 # 4. Faça um programa que peça dois números inteiros e imprima a divisão inteira do primeiro pelo segundo.
 # 5. Escreva um programa que calcule o quadrado de um número fornecido pelo usuário.
