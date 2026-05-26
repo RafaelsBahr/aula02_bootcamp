@@ -15,12 +15,17 @@
 # print(f"O resto é: {resto}")
 
 # 3. Desenvolva um programa que multiplique dois números fornecidos pelo usuário e mostre o resultado.
-print("Multiplicação!")
-num1 = float(input("Primeiro número: "))
-num2 = float(input("Segundo número: "))
-Produto = num1 * num2
-print(f"O produto é: {Produto}")
-
+# print("Multiplicação!")
+# num1 = float(input("Primeiro número: "))
+# num2 = float(input("Segundo número: "))
+# Produto = num1 * num2
+# print(f"O produto é: {Produto}")
 
 # 4. Faça um programa que peça dois números inteiros e imprima a divisão inteira do primeiro pelo segundo.
+# print("Divisão de 2 números inteiros!")
+# dividendo = int(input("insira o dividendo: "))
+# divisor = int(input("insira o divisor: "))
+# quociente = dividendo // divisor
+# print(f"O resultado é: {quociente}")
+
 # 5. Escreva um programa que calcule o quadrado de um número fornecido pelo usuário.
