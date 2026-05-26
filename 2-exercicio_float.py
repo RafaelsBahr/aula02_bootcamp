@@ -29,3 +29,9 @@
 # print(f"O resultado é: {graus_fahrenheit:.1f}ºF")
 
 # 10. Escreva um programa que calcule a área de um círculo, recebendo o raio como entrada.
+# PI * R^2
+import math
+print("Calculo da area do círclo!")
+raio = float(input("Insira raio do circulo: "))
+area_circulo = math.pi * (raio**2)
+print(f"A area do círculo é: {area_circulo:.2f}")
