@@ -39,5 +39,13 @@
 # print(f"O valor original é {entrada}, então o seu inverso é {inverso}")
 
 # 19. Faça um programa que compare se dois números fornecidos pelo usuário são iguais.
+# print("Comparativo se números são iguais!")
+# val1 = input("Primeiro número: ")
+# val2 = input("Segundo número: ")
+# comparativo = val1 == val2
+# if comparativo == True:
+#     print("Os números são iguais!")
+# else:
+#     print("Os números são diferentes!")
 
 # 20. Escreva um programa que verifique se dois números fornecidos pelo usuário são diferentes.
