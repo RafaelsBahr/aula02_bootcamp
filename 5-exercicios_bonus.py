@@ -22,36 +22,48 @@
 # Try except também não imagino como poderia dar erro
 
 # Exercício 23: Calculadora Simples
-import operator
+# import operator
 
-# Dicionário de funções para substituir os if-elif
-operacoes = {
-    "+": operator.add,
-    "-": operator.sub,
-    "*": operator.mul,
-    "/": operator.truediv
-}
+# # Dicionário de funções para substituir os if-elif
+# operacoes = {
+#     "+": operator.add,
+#     "-": operator.sub,
+#     "*": operator.mul,
+#     "/": operator.truediv
+# }
 
-try:
-    val1 = float(input("Primeiro número: "))
-    val2 = float(input("Segundo número: "))
-    op = input("Operador (+, -, *, /): ")
+# try:
+#     val1 = float(input("Primeiro número: "))
+#     val2 = float(input("Segundo número: "))
+#     op = input("Operador (+, -, *, /): ")
 
-    # Verifica se o operador digitado existe no nosso dicionário
-    if op in operacoes:
-        # Chama a função correspondente ao operador
-        resultado = operacoes[op](val1, val2)
-        print(f"Resultado: {resultado}")
-    else:
-        print("Operador inválido!")
+#     # Verifica se o operador digitado existe no nosso dicionário
+#     if op in operacoes:
+#         # Chama a função correspondente ao operador
+#         resultado = operacoes[op](val1, val2)
+#         print(f"Resultado: {resultado}")
+#     else:
+#         print("Operador inválido!")
 
-except ValueError:
-    print("Erro: Entrada não numérica. Por favor, digite números válidos.")
-except ZeroDivisionError:
-    print("Erro: Não é possível dividir por zero.")
+# except ValueError:
+#     print("Erro: Entrada não numérica. Por favor, digite números válidos.")
+# except ZeroDivisionError:
+#     print("Erro: Não é possível dividir por zero.")
 
 # Foi dificil. Na aula foi passado bem rapido sobre import e if. Mas estudei e usei IA e entendi no final
 # import operator permite que a gente tenha novos comandos como operator.add e operator.sub...
 # A gente consegue criar uma espécie de condicional para os operadores string (linha 28)
 # if op in operacoes encerra o raciocínio. Com IA fica facil, mas entendi tudo.
 
+# Exercício 24: Classificador de Números
+print("Classificador de Números!")
+try:
+    val1 = float(input("Preencha qualquer número: "))
+    if val1 > 0:
+        print("Valor é positivo")
+    elif val1 == 0:
+        print("Valor é zero")
+    else:
+        print("Valor é negativo")
+except ValueError:
+    print("ERRO! Deve inserir número com ponto")
