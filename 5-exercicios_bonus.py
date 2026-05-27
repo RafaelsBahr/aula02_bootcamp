@@ -56,14 +56,24 @@
 # if op in operacoes encerra o raciocínio. Com IA fica facil, mas entendi tudo.
 
 # Exercício 24: Classificador de Números
-print("Classificador de Números!")
-try:
-    val1 = float(input("Preencha qualquer número: "))
-    if val1 > 0:
-        print("Valor é positivo")
-    elif val1 == 0:
-        print("Valor é zero")
-    else:
-        print("Valor é negativo")
-except ValueError:
-    print("ERRO! Deve inserir número com ponto")
+# print("Classificador de Números!")
+# try:
+#     val1 = float(input("Preencha qualquer número: "))
+#     if val1 > 0:
+#         print("Valor é positivo")
+#     elif val1 == 0:
+#         print("Valor é zero")
+#     else:
+#         print("Valor é negativo")
+# except ValueError:
+#     print("ERRO! Deve inserir número com ponto")
+
+# Exercício 25: Conversão de Tipo com Validação
+print("String para lista de números!")
+lista_usuario = input("Escreva sua lista separada por ';' sem as aspas: ")
+Lista_formatada = lista_usuario.split(";")
+if isinstance(Lista_formatada, int):
+    print(type(Lista_formatada))
+else:
+    print("Erro na lista!")
+# finalmente um uso real do isinstance()
